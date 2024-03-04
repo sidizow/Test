@@ -11,7 +11,6 @@ import com.example.test.domain.repositories.GitRepository
 import com.squareup.moshi.Moshi
 import javax.inject.Inject
 import javax.inject.Singleton
-import kotlin.random.Random
 
 @Singleton
 class GitRepositoryImpl @Inject constructor(
@@ -31,7 +30,7 @@ class GitRepositoryImpl @Inject constructor(
 
 
     private fun GitResponseSourceEntity.toGitRepositoriesEntity() = GitRepositoriesEntity(
-        id = id ?: -Random.nextInt(),
+        id = id,
         name = name ?: UNKNOWN,
         private = when (private) {
             false -> "public"

@@ -10,7 +10,7 @@ interface GitRepositoriesApi {
     @GET("/users/{username}/repos")
     suspend fun getRepositories(
         @Path("username") username: String,
-        @Query("Accept") accept: String,
+        @Query("Accept") accept: String
     ): List<GitResponseSourceEntity>
 
 }

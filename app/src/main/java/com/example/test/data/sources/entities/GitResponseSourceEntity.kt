@@ -61,7 +61,7 @@ data class GitResponseSourceEntity(
     @Json(name = "watchers_count") val watchersCount: String?,
     @Json(name = "size") val size: String?,
     @Json(name = "default_branch") val defaultBranch: String?,
-    @Json(name = "open_issues_count") val open_issuesCount: String?,
+    @Json(name = "open_issues_count") val openIssuesCount: String?,
     @Json(name = "is_template") val isTemplate: Boolean?,
     @Json(name = "topics") val topics: List<String?>,
     @Json(name = "has_issues") val hasIssues: Boolean?,
