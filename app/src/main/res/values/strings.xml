@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Test</string>
+    <string name="def_name">TestApp</string>
+    <string name="def_type">Public</string>
+    <string name="def_language">Kotlin</string>
+    <string name="def_date">04.03.2024</string>
+    <string name="username">Username</string>
+</resources>
