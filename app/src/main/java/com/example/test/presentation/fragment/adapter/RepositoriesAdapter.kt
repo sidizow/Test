@@ -12,7 +12,6 @@ class RepositoriesAdapter() : RecyclerView.Adapter<RepositoriesAdapter.Repositor
 
     private var listRepositories = emptyList<GitRepositoriesEntity>()
 
-    //TODO null
     class RepositoriesViewHolder(private val binding: ItemRepositoriesBinding) :
         ViewHolder(binding.root) {
         fun bind(gitRepositoriesEntity: GitRepositoriesEntity) {

@@ -17,7 +17,6 @@ class RepositoriesViewModel @Inject constructor(
     private val getUserRepositoriesUseCase: GetUserRepositoriesUseCase
 ): ViewModel() {
 
-    //TODO знач <>
     private val _repositories = MutableLiveData<List<GitRepositoriesEntity>>()
     val repositories: LiveData<List<GitRepositoriesEntity>> = _repositories
 
